@@ -1,0 +1,17 @@
+Package: project2
+Title: Approximate sin and cos, make ci_class and calculate the 95% confidence interval. 
+Version: 0.0.0.9000
+Authors@R: 
+    person("Chuyi", "Sun", , "csun52@jh.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: The packages contains the functions to approximate sin and cos use infinite series expansion, an new ci_class
+              and funcion to calcualte the ci_calss object's 95% confidence interval.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
